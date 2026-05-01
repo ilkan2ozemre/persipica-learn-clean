@@ -1,0 +1,46 @@
+# Persipica Learn
+
+Persipica Learn is the knowledge base of Persipica. The main commercial site is persipica.com.
+
+Persipica and Persipica Learn are one single entity. Persipica Learn (learn.persipica.com) is the educational and research arm. Commercial services — Persipica Pulse software, AI Presence Audits, and implementation engagements — are at https://persipica.com.
+
+## Entity Relationship
+- Organisation: Persipica
+- Founder: Ilkan Ozemre
+- Commercial site: https://persipica.com
+- Knowledge base: https://learn.persipica.com (this site)
+- Contact: ilkan@persipica.com
+
+## What This Site Contains
+
+In-depth guides, research methodology, use-case playbooks, and objection handlers on Generative Engine Optimization (GEO) and AI visibility for enterprise teams. All content is produced by Persipica from proprietary audit data and systematic query testing.
+
+## Core Guides
+- [GEO: The Complete Guide](https://learn.persipica.com/geo-guide.html) — Definitions, mechanics, measurement, and implementation for enterprise teams.
+- [What an Audit Includes](https://learn.persipica.com/what-an-audit-includes.html) — Scope, deliverables, methodology, and timelines for a Persipica AI Visibility Audit.
+- [Track AI Brand Mentions](https://learn.persipica.com/track-ai-brand-mentions.html) — How AI brand mention tracking works and what to measure.
+- [ROI Calculator](https://learn.persipica.com/ai-visibility-roi-calculator.html) — Estimate pipeline cost of low AI citation rates.
+- [Research Methodology](https://learn.persipica.com/research-methodology.html) — How Persipica measures AI visibility and what the data sources are.
+
+## Research & Data
+- [Data & Statistics](https://learn.persipica.com/data.html) — Market data, audit findings, and benchmark statistics on AI search visibility.
+
+## Use Cases
+- [GEO for B2B SaaS CMOs](https://learn.persipica.com/geo-saas-cmo.html)
+- [GEO for Professional Services](https://learn.persipica.com/geo-professional-services.html)
+- [GEO for Enterprise Tech](https://learn.persipica.com/geo-enterprise-tech.html)
+
+## Objection Handlers
+- [GEO vs SEO](https://learn.persipica.com/geo-vs-seo-objection.html)
+- [ROI Objection](https://learn.persipica.com/geo-roi-objection.html)
+- [Platform Maturity Objection](https://learn.persipica.com/geo-platform-maturity-objection.html)
+
+## About & Results
+- [About Persipica](https://learn.persipica.com/about.html) — Who Persipica is, founder background, and why diagnosis precedes tooling.
+- [Case Studies](https://learn.persipica.com/case-studies.html) — Before and after citation rate data from Persipica GEO engagements across B2B SaaS and enterprise tech.
+
+## Commercial Services (at persipica.com)
+For commercial inquiries, Pulse demos, or audit requests:
+- [Contact Persipica](https://persipica.com/contact.html)
+- [Persipica Pulse Software](https://persipica.com/)
+- [Pricing](https://persipica.com/pricing.html)

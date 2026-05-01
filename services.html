@@ -2,39 +2,93 @@
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="0;url=https://persipica.com/services.html" http-equiv="refresh"/>
   <title>
-   Products &amp; Services | Persipica Learn
+   Persipica Services
   </title>
-  <meta content="Persipica offers four routes to buy: AI Presence Audit, Full GEO Programme, AI Visibility Tracking, and Persipica Pulse." name="description"/>
-  <style>.wf-loading body { visibility: hidden !important; }</style>
-  <script>
-   (function() {
-      var done = false;
-      function reveal() { if (done) return; done = true; document.documentElement.classList.remove('wf-loading'); }
-      document.documentElement.classList.add('wf-loading');
-      if (document.fonts) { document.fonts.ready.then(reveal); } else { reveal(); }
-      setTimeout(reveal, 2000);
-    })();
+  <link href="https://persipica.com/services.html" rel="canonical"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://learn.persipica.com/#website",
+  "url": "https://learn.persipica.com",
+  "name": "Persipica Learn",
+  "publisher": {
+    "@id": "https://persipica.com/#organization"
+  }
+}
   </script>
-  <link href="https://fonts.googleapis.com" rel="preconnect"/>
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&amp;family=Archivo:wght@300;400;500;600&amp;display=block" rel="stylesheet"/>
-  <link href="style.css" rel="stylesheet"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://persipica.com/#organization",
+  "name": "Persipica",
+  "url": "https://persipica.com",
+  "logo": "https://persipica.com/title.png",
+  "description": "Persipica builds software that shows whether AI systems recommend a brand in buyer prompts.",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://persipica.com/#ilkan-ozemre",
+    "name": "Ilkan Ozemre",
+    "jobTitle": "Founder",
+    "sameAs": ["https://www.linkedin.com/in/ilkanozemre"]
+  },
+  "sameAs": [
+    "https://learn.persipica.com",
+    "https://www.linkedin.com/company/persipica",
+    "https://twitter.com/persipica"
+  ]
+}
+  </script>
  </head>
  <body>
   <nav>
-    <a href="index.html"><img class="nav-logo" src="title.png" alt="Persipica" /></a>
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">Learn Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      
-      <li><a href="https://persipica.com" class="nav-cta">Return</a></li>
-    </ul>
-    <div class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></div>
+   <a href="index.html">
+    <img alt="Persipica" class="nav-logo" src="https://persipica.com/title.png"/>
+   </a>
+   <ul class="nav-links">
+    <li>
+     <a href="index.html">
+      Learn Home
+     </a>
+    </li>
+    <li>
+     <a href="https://persipica.com/services.html">
+      Services
+     </a>
+    </li>
+    <li>
+     <a href="https://persipica.com/pricing.html">
+      Pricing
+     </a>
+    </li>
+    <li>
+     <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+      <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+     </button>
+    </li>
+   </ul>
+   <div aria-label="Menu" class="hamburger" id="hamburger">
+    <span>
+    </span>
+    <span>
+    </span>
+    <span>
+    </span>
+   </div>
   </nav>
   <div class="article-layout">
    <aside class="global-sidebar">
+    <div class="sidebar-search">
+     <input type="text" id="sidebar-search-input" placeholder="Search the library..." autocomplete="off">
+     <div id="search-results" class="search-results-dropdown"></div>
+    </div>
+
+    </div>
+
     <div class="sidebar-section">
      <p class="sidebar-section-label">
       Core Guides
@@ -62,7 +116,10 @@
       Research &amp; Data
      </p>
      <div class="sidebar-nav">
-            <a href="data.html">
+      <a href="research-methodology.html">
+       Research methodology
+      </a>
+      <a href="data.html">
        Data &amp; statistics
       </a>
      </div>
@@ -99,19 +156,25 @@
       </a>
      </div>
     </div>
-        <div class="sidebar-section">
+    <div class="sidebar-section">
      <p class="sidebar-section-label">
       Persipica
      </p>
      <div class="sidebar-nav">
-      <a class="active" href="services.html">
+      <a href="https://persipica.com/services.html">
        Services
+      </a>
+      <a href="https://persipica.com/pricing.html">
+       Pricing
+      </a>
+      <a href="about.html">
+       About
       </a>
       <a href="case-studies.html">
        Case Studies
       </a>
-      <a href="privacy.html">
-       Privacy
+      <a href="https://persipica.com/contact.html">
+       Contact
       </a>
      </div>
     </div>
@@ -130,17 +193,11 @@
     </nav>
     <header class="article-header">
      <h1>
-      Products &amp;
-      <span>
-       Services
-      </span>
+      Persipica Services
      </h1>
-     <p class="sec-body">
-      From one-off diagnosis to ongoing monitoring.
-     </p>
      <div class="article-meta">
       <span>
-       3 min read
+       1 min read
       </span>
       •
       <span>
@@ -148,135 +205,20 @@
       </span>
      </div>
     </header>
-    <section class="guide-section">
-     <p class="guide-section-num">
-      01 / Monitoring
-     </p>
-     <h2 class="guide-h2" id="persipica-pulse">
-      Persipica Pulse
-     </h2>
-     <p class="guide-p">
-      Pulse runs automated cross-model audits across a single strategic brand or a full portfolio of managed workspaces. It tracks score movement, competitor movement, and algorithmic drift while keeping every run in an evidence ledger.
-     </p>
-     <div class="deliverables-grid">
-      <div class="deliverable-card">
-       <p class="deliverable-title">
-        Flexible workspaces
-       </p>
-       <p class="deliverable-copy">
-        Per-workspace configuration of company, category, website, location, competitors, target keywords, and Slack webhook. Suitable for a single strategic brand or a fully isolated multi-client setup.
-       </p>
-      </div>
-      <div class="deliverable-card">
-       <p class="deliverable-title">
-        Cross-model async audit jobs
-       </p>
-       <p class="deliverable-copy">
-        Asynchronous audit jobs run against GPT-5.4 Mini, Sonnet 4.6, and Gemini 3.1 Flash Lite Preview across selected buyer journey stages.
-       </p>
-      </div>
-      <div class="deliverable-card">
-       <p class="deliverable-title">
-        Deterministic scoring pipeline
-       </p>
-       <p class="deliverable-copy">
-        Versioned prompt catalog, provider adapters, shared web grounding for citation prompts, and centralised scoring.
-       </p>
-      </div>
-      <div class="deliverable-card">
-       <p class="deliverable-title">
-        Evidence Ledger
-       </p>
-       <p class="deliverable-copy">
-        Every audit run logs the exact prompt used and the full AI output. Teams can review model behaviour and trace citation changes.
-       </p>
-      </div>
-     </div>
-    </section>
-    <section class="guide-section">
-     <p class="guide-section-num">
-      02 / Diagnosis
-     </p>
-     <h2 class="guide-h2" id="ai-presence-audit">
-      AI Presence Audit
-     </h2>
-     <p class="guide-p">
-      The audit is a fixed-scope engagement that measures your brand's AI citation rate across the full buyer journey, maps competitor displacement, and delivers a prioritised action plan your team can execute immediately.
-     </p>
-     <div class="audit-scope-grid">
-      <div class="audit-scope-card">
-       <p class="audit-card-title">
-        Stage-level citation coverage
-       </p>
-       <p class="deliverable-copy">
-        Discovery, Comparison, Buying Intent, and Brand stage citation rates measured across GPT-5.4 Mini, Sonnet 4.6, and Gemini 3.1 Flash Lite Preview.
-       </p>
-      </div>
-      <div class="audit-scope-card">
-       <p class="audit-card-title">
-        Technical gap analysis
-       </p>
-       <p class="deliverable-copy">
-        Which competitors AI prefers, which prompts trigger them, and how your site scores on technical AI-readiness.
-       </p>
-      </div>
-     </div>
-    </section>
-    <section class="guide-section">
-     <p class="guide-section-num">
-      03 / Implementation
-     </p>
-     <h2 class="guide-h2" id="full-geo-programme">
-      Full GEO Programme
-     </h2>
-     <p class="guide-p">
-      Implementation support that turns audit findings into execution. This covers content restructuring, authority building, structural fixes, and a post-implementation re-audit to confirm progress.
-     </p>
-     <div class="art-steps">
-      <li>
-       <strong>
-        Strategy &amp; Roadmap
-       </strong>
-       <span>
-        A prioritised roadmap is built from the audit data. It covers content gaps, authority signals, and structural changes. Every recommendation ties back to a citation gap.
-       </span>
-      </li>
-      <li>
-       <strong>
-        Execution
-       </strong>
-       <span>
-        Content restructuring, authority signal building, and entity definition work. All output is documented so your team can maintain it independently.
-       </span>
-      </li>
-      <li>
-       <strong>
-        Re-Audit Confirmation
-       </strong>
-       <span>
-        Full GEO Programme clients receive a post-implementation re-audit to confirm progress and measure citation growth.
-       </span>
-      </li>
-     </div>
-    </section>
-    <div class="guide-cta-block">
-     <p class="sec-label">
-      Next Step
-     </p>
-     <h2 class="guide-cta-title" id="ready-to-see-where-your-brand-stands">
-      Ready to see where your brand stands?
-     </h2>
-     <p class="guide-cta-body">
-      Start with a one-off audit to establish a citation baseline, or explore Pulse for continuous monitoring.
-     </p>
-    </div>
+    <p>
+     If you are not redirected,
+     <a href="https://persipica.com/services.html">
+      click here to see our services
+     </a>
+     .
+    </p>
     <div class="next-article-link">
      <p>
       Next Up
      </p>
-     <a href="case-studies.html">
-      Case Studies
-</a>
+     <a href="pricing.html">
+      Pricing →
+     </a>
     </div>
    </main>
    <aside class="local-toc">
@@ -284,18 +226,6 @@
      On this page
     </p>
     <div class="toc-links">
-     <a class="" href="#persipica-pulse">
-      Persipica Pulse
-     </a>
-     <a class="" href="#ai-presence-audit">
-      AI Presence Audit
-     </a>
-     <a class="" href="#full-geo-programme">
-      Full GEO Programme
-     </a>
-     <a class="" href="#ready-to-see-where-your-brand-stands">
-      Ready to see where your brand stands?
-     </a>
     </div>
    </aside>
   </div>
@@ -332,7 +262,10 @@
     <p class="footer-col-label">
      Research
     </p>
-        <a href="data.html">
+    <a href="research-methodology.html">
+     Research methodology
+    </a>
+    <a href="data.html">
      Data &amp; statistics
     </a>
    </div>
@@ -357,13 +290,19 @@
     <a href="https://persipica.com">
      Main site
     </a>
-    <a href="services.html">
+    <a href="https://persipica.com/services.html">
      Services
     </a>
-</div>
+    <a href="https://persipica.com/pricing.html">
+     Pricing
+    </a>
+    <a href="https://persipica.com/contact.html">
+     Get your audit
+    </a>
+   </div>
   </footer>
   <div class="footer-bottom">
-   <img alt="Persipica" class="footer-bottom-logo" src="title.png"/>
+   <img alt="Persipica" class="footer-bottom-logo" src="https://persipica.com/title.png"/>
    <p class="footer-bottom-copy">
     © 2026 Persipica. All rights reserved.
     <a href="https://persipica.com/privacy.html" style="color: var(--faint);">
@@ -371,10 +310,8 @@
     </a>
    </p>
   </div>
-  <script src="app.js">
+  <script type="text/javascript">
+   window.location.href = "https://persipica.com/services.html";
   </script>
  </body>
 </html>
-
-
-

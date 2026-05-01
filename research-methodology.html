@@ -1,18 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="utf-8"/>
-  <style>.wf-loading body { visibility: hidden !important; }</style>
-  <script>
-   (function() {
-      var done = false;
-      function reveal() { if (done) return; done = true; document.documentElement.classList.remove('wf-loading'); }
-      document.documentElement.classList.add('wf-loading');
-      if (document.fonts) { document.fonts.ready.then(reveal); } else { reveal(); }
-      setTimeout(reveal, 2000);
-    })();
-  </script>
-  <meta content="Detailed methodology behind Persipica's GEO audits. How citation rates are measured, which AI platforms are tested, sample sizes, statistical approach, and the sources behind key metrics." name="description"/>
+<meta content="Detailed methodology behind Persipica's GEO audits. How citation rates are measured, which AI platforms are tested, sample sizes, statistical approach, and the sources behind key metrics." name="description"/>
   <link href="https://learn.persipica.com/research-methodology.html" rel="canonical"/>
   <meta content="website" property="og:type"/>
   <meta content="GEO Audit Methodology | Persipica" property="og:title"/>
@@ -28,10 +18,10 @@
   <title>
    GEO Audit Methodology: How Persipica Measures AI Visibility | Persipica
   </title>
-  <link href="../persipica-website/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
-  <link href="../persipica-website/favicon.ico" rel="icon" type="image/x-icon"/>
-  <link href="../persipica-website/favicon-512-v2.png" rel="icon" sizes="512x512" type="image/png"/>
-  <link href="../persipica-website/favicon-180-v2.png" rel="apple-touch-icon"/>
+  <link href="https://persipica.com/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+  <link href="https://persipica.com/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="https://persipica.com/favicon-512-v2.png" rel="icon" sizes="512x512" type="image/png"/>
+  <link href="https://persipica.com/favicon-180-v2.png" rel="apple-touch-icon"/>
   <link href="https://fonts.googleapis.com" rel="preconnect"/>
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&amp;family=Archivo:wght@300;400;500;600&amp;display=block" rel="stylesheet"/>
@@ -42,18 +32,11 @@
     "@type": "Article",
     "headline": "Persipica GEO Audit Methodology: How We Measure AI Visibility",
     "description": "Detailed methodology behind Persipica's GEO audits, including data sources, sample sizes, statistical approach, and how key metrics like the 14.2% AI conversion rate are calculated.",
-    "author": {
-      "@type": "Organization",
-      "name": "Persipica",
-      "url": "https://persipica.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Persipica",
-      "url": "https://persipica.com"
-    },
-    "url": "https://persipica.com/research-methodology.html",
-    "mainEntityOfPage": "https://persipica.com/research-methodology.html"
+    "author": { "@id": "https://persipica.com/#ilkan-ozemre" },
+    "publisher": { "@id": "https://persipica.com/#organization" },
+    "url": "https://learn.persipica.com/research-methodology.html",
+    "mainEntityOfPage": "https://learn.persipica.com/research-methodology.html",
+    "isPartOf": { "@id": "https://learn.persipica.com/#website" }
   }
   </script>
  </head>
@@ -62,7 +45,6 @@
     <a href="index.html"><img class="nav-logo" src="title.png" alt="Persipica" /></a>
     <ul class="nav-links">
       <li><a href="index.html" class="active">Learn Home</a></li>
-      
       <li><a href="https://persipica.com" class="nav-cta">Return</a></li>
     </ul>
     <div class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></div>
@@ -167,7 +149,7 @@
       <span>
        9 min read
       </span>
-      â€¢
+      &middot;
       <span>
        Updated April 2026
       </span>
@@ -192,7 +174,7 @@
      </a>
      .
     </p>
-    <div class="art-callout reveal instant">
+<div class="art-callout reveal">
      <p class="art-callout-label">
       Live audit tool scope
      </p>
@@ -291,7 +273,7 @@
         Problem-awareness queries: unbranded, testing whether the company surfaces without being named
        </td>
        <td>
-        1Ã—
+        1x
        </td>
       </tr>
       <tr>
@@ -302,7 +284,7 @@
         Vendor comparison queries, testing competitive positioning and share of voice
        </td>
        <td>
-        1.5Ã—
+        1.5x
        </td>
       </tr>
       <tr>
@@ -313,7 +295,7 @@
         Direct brand name queries, testing description accuracy and entity recognition
        </td>
        <td>
-        1Ã—
+        1x
        </td>
       </tr>
       <tr>
@@ -324,7 +306,7 @@
         High-commercial-intent queries, testing presence at the moment buyers are ready to shortlist
        </td>
        <td>
-        2Ã—
+        2x
        </td>
       </tr>
       <tr>
@@ -335,7 +317,7 @@
         Scenario-specific queries, testing fit for specific buyer problems and workflow needs
        </td>
        <td>
-        2Ã—
+        2x
        </td>
       </tr>
       <tr>
@@ -346,13 +328,13 @@
         Skeptical buyer queries, testing how AI handles pricing, risk, and trust concerns
        </td>
        <td>
-        1.5Ã—
+        1.5x
        </td>
       </tr>
      </tbody>
     </table>
     <p class="art-p">
-     Discovery and buying intent queries deliberately omit the company name. These stages test whether the company appears when a buyer describes their problem without naming a specific vendor. These are the queries that drive new pipeline. Buying Intent and Use Case stages carry the highest weight (2Ã—) in the overall score, reflecting their direct commercial influence on vendor shortlists.
+     Discovery and buying intent queries deliberately omit the company name. These stages test whether the company appears when a buyer describes their problem without naming a specific vendor. These are the queries that drive new pipeline. Buying Intent and Use Case stages carry the highest weight (2x) in the overall score, reflecting their direct commercial influence on vendor shortlists.
     </p>
     <h2 class="art-h2" id="scoring">
      How are scores calculated?
@@ -511,8 +493,8 @@
     </h3>
     <p class="art-p">
      The audit findings presented on the
-     <a href="research.html" style="color:var(--teal);">
-      Research page
+     <a href="data.html" style="color:var(--teal);">
+      Data page
      </a>
      are first-party data from audits conducted by Persipica in April 2026. Each company was tested across a set of buyer journey queries on GPT-5.4 Mini, Sonnet 4.6, and Gemini 3.1 Flash Lite Preview. The finding that every audited company scored 0% at Discovery and Buying Intent is based on this first-party dataset.
     </p>
@@ -546,23 +528,12 @@
      </strong>
      Persipica's published research covers a specific cohort of enterprise companies audited in April 2026. The findings are consistent across this cohort but should not be extrapolated to all industries or company sizes without further validation.
     </p>
-    <div class="art-cta reveal">
-     <p class="sec-label" style="color: var(--faint);">
-      Next step
-     </p>
-     <p class="art-cta-title">
-      Want to see how your company scores?
-     </p>
-     <p class="art-cta-body">
-      A Persipica audit covers the core benchmark stages across current frontier models from OpenAI and Anthropic, with extended diagnostic stages where needed. Two weeks to a complete picture.
-     </p>
-    </div>
     <div class="next-article-link">
      <p>
       Next Up
      </p>
-     <a href="research.html">
-      Research
+     <a href="data.html">
+      Data &amp; Statistics
 </a>
     </div>
    </main>
@@ -661,7 +632,7 @@
   <div class="footer-bottom">
    <img alt="Persipica" class="footer-bottom-logo" src="title.png"/>
    <p class="footer-bottom-copy">
-    Â© 2026 Persipica. All rights reserved.
+    &copy; 2026 Persipica. All rights reserved.
     <a href="https://persipica.com/privacy.html" style="color: var(--faint);">
      Privacy
     </a>
