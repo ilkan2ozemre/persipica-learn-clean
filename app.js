@@ -24,7 +24,7 @@ if (siteNav) {
       return;
     }
 
-    if (currentScroll > lastScroll && !siteNav.classList.contains('scroll-down')) {
+    if (currentScroll > lastScroll && !siteNav.classList.contains('scroll-down') && !document.body.classList.contains('menu-open')) {
       siteNav.classList.remove('scroll-up');
       siteNav.classList.add('scroll-down');
     } else if (currentScroll < lastScroll && siteNav.classList.contains('scroll-down')) {
@@ -97,6 +97,8 @@ if (hamburger) {
   function openMenu() {
     hamburger.classList.add('open');
     hamburger.setAttribute('aria-expanded', 'true');
+    siteNav.classList.remove('scroll-down');
+    siteNav.classList.add('scroll-up');
 
     if (globalSidebar) {
       globalSidebar.classList.add('open');
@@ -159,22 +161,6 @@ document.querySelectorAll('.faq-item .faq-q').forEach(question => {
   });
 });
 
-// Reading Progress Bar
-if (siteNav && document.querySelector('.article-content')) {
-  const progressBar = document.createElement('div');
-  progressBar.className = 'reading-progress-container';
-  progressBar.innerHTML = '<div class="reading-progress-bar"></div>';
-
-  siteNav.insertAdjacentElement('afterend', progressBar);
-
-  const bar = progressBar.querySelector('.reading-progress-bar');
-  window.addEventListener('scroll', () => {
-    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
-    bar.style.width = `${scrolled}%`;
-  }, { passive: true });
-}
 
 function createArticleId(prefix) {
   return `${prefix}-${Math.random().toString(36).slice(2, 9)}`;

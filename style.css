@@ -1405,6 +1405,11 @@ body > nav.scroll-up {
   background: var(--teal); border: 3px solid var(--navy);
   box-shadow: 0 0 0 1px var(--teal);
 }
+.calc-range-labels {
+  display: flex; justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.7rem; color: var(--faint); letter-spacing: 0.04em;
+}
 
 .output-primary-num {
   font-family: 'Cormorant Garamond', serif;
@@ -2271,7 +2276,10 @@ footer.full-footer::before {
   .faq-card { padding: 1.75rem 1.5rem; }
   .calc-inputs, .calc-outputs { padding: 1.75rem 1.1rem; }
   .annual-bar { margin-top: -0.75rem; padding: 2.5rem 1.1rem 2rem; border-radius: 1.2rem 1.2rem var(--radius-md) var(--radius-md); }
-  .output-secondary { gap: 1rem; margin-top: 1.5rem; }
+  .output-secondary { grid-template-columns: 1fr; gap: 1rem; margin-top: 1.5rem; }
+  .calc-label-value { font-size: 1.5rem; }
+  .annual-num { font-size: 2.2rem; }
+  .annual-bar-inner { grid-template-columns: 1fr; gap: 1.25rem; }
   .case-section, .why-section { padding-top: 3rem; }
   .case-setup, .case-result, .why-cell { padding: 1.5rem; }
   .article-digest { padding: 1.1rem; }
