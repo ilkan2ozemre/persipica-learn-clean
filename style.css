@@ -58,6 +58,7 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--nav-h) + 28px);
   width: 100%;
+  overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
@@ -73,6 +74,7 @@ body {
   line-height: 1.75;
   width: 100%;
   max-width: 100%;
+  overflow-x: hidden;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -376,7 +378,7 @@ body > nav.scroll-up {
 }
 .article-digest-top {
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.7fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
   gap: 1rem;
   align-items: start;
 }
@@ -1443,7 +1445,7 @@ body > nav.scroll-up {
 }
 .case-layout {
   display: grid;
-  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 1.25rem;
   align-items: stretch;
 }
@@ -1729,7 +1731,7 @@ body > nav.scroll-up {
 .hub-home-hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
   gap: 1.25rem;
   align-items: stretch;
   padding: var(--space-xl);
